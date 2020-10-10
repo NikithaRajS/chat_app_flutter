@@ -84,20 +84,25 @@ class _SignUpState extends State<SignUp> {
               SizedBox(
                 height: 16,
               ),
-              Row(
+             Container(
+               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     "Already have an account? ",
                     style: TextStyle(color: Colors.white, fontSize: 15),
                   ),
-                  Text(
+             ),
+
+                 Container(
+                   child : Text(
                     'Sign In Now',
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 15,
                         decoration: TextDecoration.underline),
                   )
+                 )
                 ],
               ),
               SizedBox(
